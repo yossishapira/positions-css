@@ -8,7 +8,7 @@
 
 .sun {
     position: absolute;
-    color: rgb(255, 255, 255);
+    color: rgb(241, 241, 241);
     float: right;
     right: 40px;
     margin-top: 30px;
@@ -35,13 +35,27 @@
     margin-top: 15px;
 }
 .selection-menu{
-    position: relative;
-    background-color: rgb(196, 197, 196);
+    position: sticky;
+    top: 0;
+    background-color: rgb(217, 219, 217);
     width: 100%;
     height: 25px;
-    padding: 10px 0px;
+    padding: 10px 15px;
+    text-align: center;
 }
-p {
-    position: absolute;
 
+.selection-menu a{
+    
+    color: rgb(12, 12, 12);
+    border:50px;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 5px;
+    margin-right: 25px;
+    font-size: 22px;
+   
+}
+.selection-menu a:hover{
+    background-color: rgba(206, 245, 189, 0.753);
 }
